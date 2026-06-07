@@ -10,18 +10,19 @@ The dataset that has been used in this project is the Heart Disease dataset from
 The dataset has some attributes about the patient. The machine learning models used on this project will be trained up on those attributes and their labels in order to create patterns that will help us predict whether or not someone has heart disease.
 
 Those attibutes are:
-     1.age	
-     2.sex	
-     3.cp	
-     4.trestbps	
-     5.chol	
-     6.fbs	
-     7.restecg	
-     8.thalach	
-     9.exang	
-     10.oldpeak	
-     11.slope	
-     12.ca	
-     13.thal	
-     14.target      
-      
+| Feature | Description |
+|--------|-------------|
+| age | Age of patient |
+| sex | Gender |
+| cp | Chest pain type |
+| trestbps | Resting blood pressure |
+| chol | Serum cholesterol |
+| fbs | Fasting blood sugar |
+| restecg | Resting ECG results |
+| thalach | Max heart rate achieved |
+| exang | Exercise induced angina |
+| oldpeak | ST depression |
+| slope | Slope of ST segment |
+| ca | Major vessels |
+| thal | Thalassemia |
+| target | Heart disease presence |
