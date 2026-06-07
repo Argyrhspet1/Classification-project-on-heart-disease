@@ -26,3 +26,14 @@ Those attibutes are:
 | ca | Major vessels |
 | thal | Thalassemia |
 | target | Heart disease presence |
+
+## Technologies used
+- Python
+- Jupyter Notebook
+- Miniconda
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+
