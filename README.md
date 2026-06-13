@@ -51,9 +51,42 @@ Those attibutes are:
 - K-Neighbors Classifier
 
 ## Results
-<img width="890" height="593" alt="image" src="https://github.com/user-attachments/assets/7073fcdc-b064-4d30-bdbf-0ac4581c7067" />
+<img width="775" height="570" alt="image" src="https://github.com/user-attachments/assets/f4b37428-bb2e-4924-9725-753c31b2f328" />
 
+The ROC curve demonstrates excellent classification performance for both models, with their curves pushed closely toward the top-left corner (the ideal classifier zone).
 
+* **Logistic Regression (AUC = 0.93):** Outperforms the Random Forest model by a slight margin, demonstrating a 93% probability of correctly distinguishing between the positive and negative classes.
+* **Random Forest (AUC = 0.92):** Shows highly competitive performance, close to the Logistic Regression model.
+* **Baseline (Random Guess):** The red dashed line represents a random classifier (AUC = 0.50), which both models significantly outperform.
+
+**Conclusion:** Both models exhibit strong discriminative power, with **Logistic Regression** being the marginally preferred choice for this specific dataset based on the AUC metric.
+
+<img width="817" height="397" alt="image" src="https://github.com/user-attachments/assets/5c5cb015-1f86-482c-98f7-4cce496cd53a" />
+
+* **Logistic Regression:**
+  * **True Negatives (0,0):** 25 correctly classified as Class 0.
+  * **True Positives (1,1):** 29 correctly classified as Class 1.
+  * **False Positives (0,1):** 4 misclassified as Class 1.
+  * **False Negatives (1,0):** 3 misclassified as Class 0.
+* **Random Forest:**
+  * **True Negatives (0,0):** 24 correctly classified as Class 0.
+  * **True Positives (1,1):** 29 correctly classified as Class 1.
+  * **False Positives (0,1):** 5 misclassified as Class 1.
+  * **False Negatives (1,0):** 3 misclassified as Class 0.
+
+**Key Takeaway:** Both models perform exceptionally well and score the exact same number of True Positives (29) and False Negatives (3). However, **Logistic Regression** minimizes Type I errors slightly better, making 1 less False Positive prediction than the Random Forest model. 
+
+<img width="1342" height="721" alt="image" src="https://github.com/user-attachments/assets/4db15714-8230-4ec3-84a7-a46c9e38a04b" />
+
+### Cross-Validated Performance Metrics for Logistic Regression
+
+The bar chart illustrates the model's performance across three key metrics evaluated via cross-validation:
+
+* **Recall (0.861):** The highest-scoring metric, indicating strong capability in identifying positive instances.
+* **F1-score (0.809):** Demonstrates a well-balanced precision and recall profile.
+* **Accuracy (0.779):** Shows a reliable overall classification correctness.
+
+*Note: Metrics are scaled between 0.0 and 1.0.*
 
 ## Evaluation Metrics
 - Confusion Matrix
