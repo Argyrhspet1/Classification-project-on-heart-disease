@@ -30,10 +30,17 @@ Those attibutes are:
 ## Technologies used
 - Python
 - Jupyter Notebook
-- Miniconda
 - Numpy
 - Pandas
 - Matplotlib
 - Seaborn
 - Scikit-Learn
 
+## Project Workflow
+
+1. Data Preprocessing
+2. Exploratory Data Analysis(EDA)
+3. Modelling
+4. Hyperparameter Tuning
+5. Evaluation
+6. Feature Importance
