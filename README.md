@@ -51,8 +51,8 @@ Those attibutes are:
 - K-Neighbors Classifier
 
 ## Results
-<img width="890" height="593" alt="image" src="https://github.com/user-attachments/assets/
-  bb44a4d8-8d6b-478b-aeda-ef72396385e8" />
+<img width="890" height="593" alt="image" src="https://github.com/user-attachments/assets/7073fcdc-b064-4d30-bdbf-0ac4581c7067" />
+
 
 
 ## Evaluation Metrics
