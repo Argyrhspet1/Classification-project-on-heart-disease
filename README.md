@@ -44,3 +44,23 @@ Those attibutes are:
 4. Hyperparameter Tuning
 5. Evaluation
 6. Feature Importance
+
+## Models Used
+- Logistic Regression
+- Random Forest Classifier
+- K-Neighbors Classifier
+
+## Results
+<img width="890" height="593" alt="image" src="https://github.com/user-attachments/assets/
+  bb44a4d8-8d6b-478b-aeda-ef72396385e8" />
+
+
+## Evaluation Metrics
+- Confusion Matrix
+- k-fold Cross Validation
+- Precision
+- Recaall
+- Accuracy
+- F1-score
+- Classification report
+- ROC curve/AUC 
