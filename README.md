@@ -101,9 +101,9 @@ The bar chart illustrates the model's performance across three key metrics evalu
 ## 🚀 How to Run
 
 1. Clone the repository
-git clone https://github.com/Argyrhspet1/Heart-Disease-Prediction-using-Machine-Learning.git  
-cd Heart-Disease-Prediction-using-Machine-Learning
-code .
+- git clone https://github.com/Argyrhspet1/Heart-Disease-Prediction-using-Machine-Learning.git  
+- cd Heart-Disease-Prediction-using-Machine-Learning
+- code .
 
 3. Install dependencies
 pip install requirements.txt
