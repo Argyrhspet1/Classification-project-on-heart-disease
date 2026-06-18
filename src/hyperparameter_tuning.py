@@ -5,10 +5,11 @@ from sklearn.ensemble import RandomForestClassifier
 
 #Create a hyperparameter grid for Logistic Regression
 def random_search_log_reg(X_train,X_test, y_train, y_test):
-    log_reg_grid={"C": np.logspace(-4,4,20),
-                "penalty":["l1","l2","elasticnet","none"],
-                "solver":["liblinear","newton-cg","lbfgs","sag"],
-                }
+    log_reg_grid = {
+        "C": np.logspace(-4, 4, 20),
+        "solver": ["saga"],
+        "l1_ratio": np.linspace(0, 1, 10),
+    }
     #Tune Logistic Regression
 
     np.random.seed(42)
