@@ -102,10 +102,11 @@ The bar chart illustrates the model's performance across three key metrics evalu
 
 1. Clone the repository
 git clone https://github.com/Argyrhspet1/Heart-Disease-Prediction-using-Machine-Learning.git  
-cd Heart-Disease-Prediction-using-Machine-Learning  
+cd Heart-Disease-Prediction-using-Machine-Learning
+code .
 
-2. Install dependencies
-pip install pandas numpy scikit-learn matplotlib seaborn  
+3. Install dependencies
+pip install requirements.txt
 
-3. Run the project
+4. Run the project
 python src/main.py  
