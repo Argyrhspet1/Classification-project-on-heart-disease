@@ -96,4 +96,16 @@ The bar chart illustrates the model's performance across three key metrics evalu
 - Accuracy
 - F1-score
 - Classification report
-- ROC curve/AUC 
+- ROC curve/AUC
+
+## 🚀 How to Run
+
+1. Clone the repository
+git clone https://github.com/Argyrhspet1/Heart-Disease-Prediction-using-Machine-Learning.git  
+cd Heart-Disease-Prediction-using-Machine-Learning  
+
+2. Install dependencies
+pip install pandas numpy scikit-learn matplotlib seaborn  
+
+3. Run the project
+python src/main.py  
